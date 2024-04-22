@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#headerBox .firstContainer {
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerBox .firstContainer .anaDiv {
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerBox .firstContainer .anaDiv .iccons {
+  color: #92908E;
+  display: flex;
+  gap: 16px;
+}
+#headerBox .firstContainer .anaDiv .center {
+  color: #92908E;
+}
+#headerBox .firstContainer .anaDiv .slece {
+  display: flex;
+  gap: 10px;
+  color: #92908E;
+}
+#headerBox .secondContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#headerBox .secondContainer .iconsss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#headerBox .secondContainer nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  font-size: 22px;
+}
+#headerBox .secondContainer nav ul li {
+  list-style-type: none;
+}
+#headerBox .secondContainer nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+#firstSection {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../../../assets/images/master-slide-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#firstSection .containerFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#firstSection .containerFirst p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: white;
+}
+#firstSection .containerFirst h1 {
+  font-family: "Poppins";
+  font-size: 60px;
+  color: white;
+}
+#firstSection .containerFirst button {
+  font-family: "Montserrat";
+  font-size: 18px;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  transition: 0.6s;
+  border-radius: 100px;
+}
+#firstSection .containerFirst button:hover {
+  background-color: orangered;
+  color: white;
+  transition: 0.6s;
+}
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  #hero {
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  #hero {
+    max-width: 100%;
+  }
+}
+#images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#images .containerImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+}
+#images .imageOne {
+  width: 100%;
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+#images .imageOne img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+#images .imageOne img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  transform-origin: center;
+}
+#images .imageOne .buttonOne {
+  position: absolute;
+}
+#images .imageOne .buttonOne button {
+  background-color: #ffffff;
+  color: rgb(28, 28, 28);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 17px;
+  padding: 10px;
+  width: 120px;
+}
+#images .imageOne .sung {
+  position: relative;
+  bottom: 70px;
+  background-color: #ffffff;
+  color: rgb(48, 48, 48);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 17px;
+  padding: 10px;
+}
+#images .imageTwo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+#images .imageTwo img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+#images .imageTwo img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  transform-origin: center;
+}
+#images .imageTwo .buttonTwo {
+  bottom: 20px;
+  position: absolute;
+}
+#images .imageTwo .buttonTwo button {
+  background-color: #ffffff;
+  color: rgb(28, 28, 28);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 17px;
+  padding: 10px;
+  width: 160px;
+}
+#images .imageTwo .watch {
+  top: 270px;
+  position: absolute;
+  background-color: #ffffff;
+  color: rgb(28, 28, 28);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 17px;
+  padding: 10px;
+  width: 120px;
+  transition: transform 0.3s ease;
+}
+#images .imageTwo .watch:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  transform-origin: center;
+}
+#images .imageThree {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+#images .imageThree .bag {
+  position: absolute;
+  background-color: #ffffff;
+  color: rgb(28, 28, 28);
+  border: none;
+  font-family: "Montserrat";
+  font-size: 17px;
+  padding: 10px;
+  width: 120px;
+}
+#images .imageThree img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+#images .imageThree img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  transform-origin: center;
+}
+#images .imageThree .buttonThree {
+  bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+  width: 220px;
+  font-family: "Montserrat";
+  position: absolute;
+}
+#images .imageThree .buttonThree button {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border-radius: 100px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  #images .containerImages {
+    flex-wrap: wrap;
+  }
+}
+#product {
+  display: flex;
+  padding: 8em;
+  justify-content: center;
+  align-items: center;
+}
+#product .productContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75%;
+}
+#product .productContainer .cards {
+  position: relative;
+  padding: 35px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+#product .productContainer .cards:hover button {
+  display: block;
+}
+#product .productContainer .cards img {
+  max-width: 100%;
+  height: auto;
+}
+#product .productContainer .cards h3 {
+  font-family: "Anton";
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+  line-height: 29px;
+}
+#product .productContainer .cards h2 {
+  font-family: "Anton";
+  font-weight: 500;
+  font-size: 20px;
+  color: gray;
+  line-height: 29px;
+}
+#product .productContainer .cards button {
+  display: none;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #00008B;
+  line-height: 29px;
+  color: white;
+  width: 100%;
+  left: 1px;
+  position: absolute;
+  bottom: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+#classTime {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#classTime .containerClass {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+#classTime .containerClass .img {
+  padding: 2px;
+}

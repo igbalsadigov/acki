@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .firstContainer {
+        width: 80%;
+
+        justify-content: space-between;
+        align-items: center;
+
+        .anaDiv {
+
+            background-color: #F5F5F5;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .iccons {
+                color: #92908E;
+                display: flex;
+                gap: 16px;
+            }
+
+            .center {
+                color: #92908E;
+            }
+
+            .slece {
+                display: flex;
+                gap: 10px;
+                color: #92908E;
+            }
+        }
+    }
+
+    .secondContainer {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .iconsss {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            font-size: 22px;
+
+
+            li {
+                list-style-type: none;
+
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+
+
+            }
+
+
+        }
+
+    }
+}
+
+#firstSection {
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../../../assets/images/master-slide-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .containerFirst {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        p {
+            font-family: "Montserrat";
+            font-size: 18px;
+            color: white;
+
+        }
+
+        h1 {
+            font-family: "Poppins";
+            font-size: 60px;
+            color: white;
+
+        }
+
+        button {
+            font-family: "Montserrat";
+            font-size: 18px;
+            padding: 10px;
+            width: 150px;
+            border: none;
+            transition: 0.6s;
+            border-radius: 100px;
+
+            &:hover {
+                background-color: orangered;
+                color: white;
+                transition: 0.6s;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+    #hero {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+    #hero {
+        max-width: 100%;
+    }
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .containerImages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        gap: 20px;
+
+    }
+
+
+    .imageOne {
+        width: 100%;
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: 0.5s;
+                transform-origin: center;
+            }
+        }
+
+        .buttonOne {
+            button {
+                background-color: #ffffff;
+                color: rgb(28, 28, 28);
+                border: none;
+                font-family: "Montserrat";
+                font-size: 17px;
+                padding: 10px;
+                width: 120px;
+            }
+
+            position: absolute;
+
+        }
+
+        .sung {
+            position: relative;
+            bottom: 70px;
+            background-color: #ffffff;
+            color: rgb(48, 48, 48);
+            border: none;
+            font-family: "Montserrat";
+            font-size: 17px;
+            padding: 10px;
+        }
+    }
+
+    .imageTwo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+
+
+        img {
+            width: 100%;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: 0.5s;
+                transform-origin: center;
+            }
+        }
+
+        .buttonTwo {
+            bottom: 20px;
+            position: absolute;
+
+            button {
+                background-color: #ffffff;
+                color: rgb(28, 28, 28);
+                border: none;
+                font-family: "Montserrat";
+                font-size: 17px;
+                padding: 10px;
+                width: 160px;
+            }
+        }
+
+        .watch {
+            top: 270px;
+            position: absolute;
+            background-color: #ffffff;
+            color: rgb(28, 28, 28);
+            border: none;
+            font-family: "Montserrat";
+            font-size: 17px;
+            padding: 10px;
+            width: 120px;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: 0.5s;
+                transform-origin: center;
+            }
+        }
+    }
+
+    .imageThree {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+
+        .bag {
+            position: absolute;
+            background-color: #ffffff;
+            color: rgb(28, 28, 28);
+            border: none;
+            font-family: "Montserrat";
+            font-size: 17px;
+            padding: 10px;
+            width: 120px;
+
+        }
+
+        img {
+            width: 100%;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+                transition: 0.5s;
+                transform-origin: center;
+            }
+        }
+
+        .buttonThree {
+            bottom: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-direction: column;
+            text-align: center;
+            width: 220px;
+            font-family: "Montserrat";
+            position: absolute;
+
+            button {
+                background-color: #000;
+                color: white;
+                padding: 10px;
+                width: 120px;
+                border-radius: 100px;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+    #images {
+        .containerImages {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+#product {
+    display: flex;
+    padding: 8em;
+    justify-content: center;
+    align-items: center;
+
+    .productContainer {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 75%;
+
+        .cards {
+            position: relative;
+            padding: 35px;
+            
+
+            &:hover {
+                button {
+                    display: block;
+                }
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+
+            h3 {
+                font-family: "Anton";
+                font-weight: 500;
+                font-size: 24px;
+                color: black;
+                line-height : 29px;
+            }
+
+            h2 {
+                font-family: "Anton";
+                font-weight: 500;
+                font-size: 20px;
+                color: gray;
+                line-height: 29px;
+            }
+
+            button {
+                display: none;
+                font-weight: 700;
+                font-size: 20px;
+                background-color: #00008B;
+                line-height: 29px;
+                color: white;
+                width: 100%;
+                left: 1px;
+                position: absolute;
+                bottom: 1px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+   #classTime{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .containerClass{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        .img{
+            padding: 2px;
+        }
+    }
+   }
